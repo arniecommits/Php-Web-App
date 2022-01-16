@@ -1,5 +1,5 @@
 <?php
 
-print "<h1>Hello from Web ".gethostname()." , my first app</h1>";
+print "<h1>Hello from Web ".gethostname()." , my first app, ".$_SERVER['SERVER_ADDR']."</h1>";
 
 ?>
